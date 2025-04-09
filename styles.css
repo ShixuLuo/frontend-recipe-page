@@ -232,6 +232,7 @@ tr:first-child td {
 tr:last-child th, 
 tr:last-child td {
     padding-bottom: 0;
+    border-bottom: 0;
 }
 
 .card {
