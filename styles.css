@@ -264,10 +264,15 @@ tr:last-child td {
 }
 
 @media (min-width: 768px) {
+    .card__hero-image {
+        height: 300px;
+    }
+
     .card__hero-image img {
         height: 300px;
         width: auto;
         object-fit: contain;
+        border-radius: 12px;
     }
 }
 
